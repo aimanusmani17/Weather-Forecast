@@ -1,0 +1,121 @@
+/* Weather.module.css */
+
+.main {
+  width: 100vw;       /* Full viewport width */
+  height: 100vh; 
+    display: flex;
+    align-items: flex-end; /* Aligns the container to the bottom of the page */
+    justify-content: center;
+    /* min-height: 100vh; */
+    background-image: url('../assets/bgimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+  }
+  .header {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem; /* Adjust as needed */
+    color: #442e47; /* Adjust for readability on your background */
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: add background for contrast */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    /* background: rgba(255, 255, 255, 0.8);  */
+    height:0auto;
+    background-color:blueviolet ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    width: 300px;  /* Fixed width */
+  height: 450px; /* Fixed height */
+  }
+  
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 12px;
+  }
+  
+  .searchBar {
+    /* width: 80%; */
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 8px;
+   
+    border-radius: 40px;
+    padding-left: 25px;
+    color:#626262;
+    background: #ebfffc;
+    font-size: 18px;
+  }
+  
+  .searchImg {
+    /* width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer; */
+    
+    width:15px;
+    padding:15px;
+    border-radius: 50px;
+    background: #ebfffc;
+    cursor: pointer;
+  }
+  
+  .weatherIcon {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .temperature {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    margin: 10px 40px;
+  }
+  
+  .location {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    margin: 10px 40px;
+  }
+  
+  .weatherData {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .humidityIcon, .windIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weatherDataContainer {
+    display: flex;
+    justify-content: space-around; /* Align humidity and wind speed in a single row */
+    gap: 20px;
+  }
+  
